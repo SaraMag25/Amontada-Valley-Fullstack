@@ -1,0 +1,18 @@
+.botao:hover{
+  background-color: darkblue;
+  cursor: pointer;
+}
+.Site:link{
+  color: black;
+  background-color: lawngreen;
+}
+.campo:focus{
+  background-color: grey;
+  border: 2px solid orange;
+}
+.link:visited{
+  color: purple;
+}
+.apertar:active {
+  background-color: red;
+}
