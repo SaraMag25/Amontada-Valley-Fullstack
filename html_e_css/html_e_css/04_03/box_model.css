@@ -1,0 +1,61 @@
+* { 
+    box-sizing: border-box; /* Controla como altura e largura são calculadas*/
+    margin: 0; 
+    padding: 0; 
+}
+
+p { /* Coloca esse estilo padrão para todos os parágrafos */
+    font-size: 16px;
+    color: blue;
+}
+
+.card { /* Tudo do cartão principal e suas características */
+    background-color: #ffffff; 
+    width: 320px;        
+    height: auto;        
+    padding: 20px;
+    margin: 40px auto; 
+    border-width: 3px; 
+    border-style: solid; 
+    border-color: #4c63af; 
+    border-radius: 12px;
+    text-align: center; 
+}
+
+#name { /* Ajeitao o que tem o ID "name" */
+    color: darkgreen;
+    margin-bottom: 10px; /
+}
+
+.role { /* Classe do cargo */
+    color: red;
+}
+
+.role {
+    color: purple; /*A última regra é a que vale*/
+}
+
+.card p { 
+    color: green; /* Sobrescreve a regra global lá em cima.*/
+}
+
+.bio p { 
+    font-style: italic; 
+    margin-top: 5px; 
+}
+
+.skills span { /* AJeitando a habilidades*/
+    display: inline-block;
+    padding: 8px 12px; 
+    margin: 5px; 
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4CAF50;
+}
+
+.foto-perfil { /* Deixando a foto de perfil mais bonita*/
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px; 
+}
