@@ -4,58 +4,89 @@
     padding: 0; 
 }
 
-p { /* Coloca esse estilo padrão para todos os parágrafos */
+p { /* Coloca o estilo padrão para todos os parágrafos */
     font-size: 16px;
-    color: blue;
+    color: #333333;
 }
 
-.card { /* Tudo do cartão principal e suas características */
-    background-color: #ffffff; 
-    width: 320px;        
+.card { /* Tudo do cartão principal */
+    background-color: #fdfdfd; 
+    width: 380px;        
     height: auto;        
-    padding: 20px;
+    padding: 25px;
     margin: 40px auto; 
-    border-width: 3px; 
+    border-width: 4px; 
     border-style: solid; 
-    border-color: #4c63af; 
-    border-radius: 12px;
+    border-color: #4CAF50; 
+    border-radius: 15px;
     text-align: center; 
 }
 
-#name { /* Ajeitao o que tem o ID "name" */
-    color: darkgreen;
-    margin-bottom: 10px; /
+#name { /* Ajeita oque tem o ID name*/
+    color: #2E7D32; 
+    margin-bottom: 10px; 
 }
 
-.role { /* Classe do cargo */
+.role { /*Classe do cargo*/
     color: red;
 }
 
 .role {
-    color: purple; /*A última regra é a que vale*/
+    color: #555555; /*A última regra é a que vale*/
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .card p { 
-    color: green; /* Sobrescreve a regra global lá em cima.*/
+    color: #666666; /* Sobrescrevendo*/
 }
 
-.bio p { 
+.bio p { /* Ajeita os paragrafos que estao so dentro da bio */
     font-style: italic; 
+    margin-top: 8px; 
+}
+
+.hobbies { /**Nova caixa para os hobbies (tentando colocar mais coisas) */
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #e8f5e9; 
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #81c784;
+}
+
+.hobbies h3 { /*Titulo da secao de hobbies*/
+    color: #2E7D32;
+    margin-bottom: 10px;
+}
+
+h3 + .hobbie-item { 
     margin-top: 5px; 
 }
 
-.skills span { /* AJeitando a habilidades*/
-    display: inline-block;
-    padding: 8px 12px; 
-    margin: 5px; 
-    
-    border-width: 1px;
-    border-style: solid;
-    border-color: #4CAF50;
+.hobbie-item { /*Espacamento entre cada hobbie para ficarem normais e iguais*/
+    margin-bottom: 5px;
+    color: #1b5e20;
 }
 
-.foto-perfil { /* Deixando a foto de perfil mais bonita*/
-    width: 120px;
-    height: 120px;
+.skills span { /* Ajeitando as habilidades */
+    display: inline-block; 
+    padding: 6px 12px; 
+    margin: 5px; 
+    background-color: #4CAF50;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2E7D32;
+    border-radius: 5px; 
+}
+
+.foto-perfil { /* Deixando a foto de perfil mais bonita */
+    width: 130px;
+    height: 130px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #4CAF50;
     margin-bottom: 15px; 
+    border-radius: 50%; 
 }
