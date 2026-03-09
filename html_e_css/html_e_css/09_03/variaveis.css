@@ -1,0 +1,11 @@
+body{
+    --bg-color: gray;
+    --primary-color: rgb(24, 154, 210);
+    --espaço: 20px; 
+}
+
+p{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    padding-left: var(--espaço);
+}
