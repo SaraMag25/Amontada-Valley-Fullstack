@@ -10,14 +10,23 @@ p{
     padding-left: var(--espaço);
 } */
 
-:root{
+/* :root{
     --bg-color: lightblue;
 }
 
 body{
     --bg-color: lightgreen;
-}
+} */
 
 div{
-    background-color: var(--bg-color);
+    background-color: green;
+    width: 50%;
+}
+
+div:hover{
+    background-color: blue;
+}
+
+section :has(div:hover){
+    border: 2px solid red;
 }
