@@ -1,0 +1,72 @@
+.principal {
+    display: flex;          
+    min-height: 100vh;      
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 30px;
+    background-color: #ffeb13;
+    padding: 20px;
+    width: 250px;           
+    position: sticky;
+    top: 0;                 
+    height: 100vh;          
+    align-self: flex-start; 
+}
+
+.menu {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+
+.menu {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn-assinar {
+    margin-top: auto;       
+    padding: 10px;
+    cursor: pointer;
+}
+
+.painel-cursos {
+    display: flex;
+    flex-wrap: wrap;        
+    gap: 20px;              
+    padding: 10px;
+    background-color: #f9f9f9;
+    flex-grow: 1;         
+    align-content: flex-start; 
+}
+
+.card {
+    flex-basis: 200px;      
+    background-color: #bbb;
+    padding: 30px;
+    border: 1px solid #3c3b3b;
+    text-align: center;
+}
+
+.img-curso {
+    width: 100%;          
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+
+.destaque {
+    flex-grow: 1;        
+    background-color: #ffcc00;
+    max-width: 350px;
+}
+
+.urgente {
+    order: -1;            
+    background-color: #ff9999;
+}
